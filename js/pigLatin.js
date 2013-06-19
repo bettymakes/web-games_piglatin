@@ -12,7 +12,7 @@ $(document).ready(function(){
 			inputArray.shift();
 			var newWord = inputArray.join("");
 			var finalWord = newWord+"ay";
-			$("#return_value").text(finalWord);
+			$("#return_value").text('"' + finalWord +'"');
 		}
 	});
 });
